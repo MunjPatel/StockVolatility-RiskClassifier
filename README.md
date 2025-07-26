@@ -6,7 +6,7 @@ A lightweight, explainable financial risk assessment tool that:
 - Detects **volatility regimes** via unsupervised clustering
 - Estimates **short-term drawdown probabilities** using rule-based statistical heuristics
 
-Built with real-world market data from Yahoo Finance and visualized in an intuitive Streamlit dashboard.
+Built with **real-world market data** from **Yahoo Finance** and visualized in an **intuitive Streamlit dashboard**.
 
 ---
 
@@ -25,16 +25,16 @@ Built with real-world market data from Yahoo Finance and visualized in an intuit
 
 ## 🚀 Try It Out
 
-> [🌐 Live Demo on Streamlit Cloud](https://stockvolatility-riskclassifier.streamlit.app)
+> [🌐 **Live Demo** on **Streamlit Cloud**](https://stockvolatility-riskclassifier.streamlit.app)
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Language**: Python
-- **Libraries**: NumPy, Pandas, yfinance, scikit-learn, Plotly, Streamlit
-- **Simulation**: Geometric Brownian motion (Monte Carlo)
-- **Clustering**: Regime detection using rolling volatility and thresholds
+- **Language**: **Python**
+- **Libraries**: **NumPy**, **Pandas**, **yfinance**, **scikit-learn**, **Plotly**, **Streamlit**
+- **Simulation**: **Geometric Brownian motion** (Monte Carlo)
+- **Clustering**: **Regime detection** using **rolling volatility** and **thresholds**
 
 ---
 
@@ -70,14 +70,14 @@ streamlit run app.py
 
 ## 📌 Example Use Case
 
-Want to estimate the probability of a 15% drawdown in Tesla over the next 30 days?
-This app simulates 10,000 future paths and returns the short-term risk, contextualized by the current volatility regime.
+Want to estimate the **probability of a 15% drawdown in Tesla** over the next 30 days?
+This app simulates **10,000 future paths** and returns the **short-term risk**, contextualized by the **current volatility regime**.
 
 ## 🧠 Project Highlights
 
-- Built for practical risk assessment using realistic, interpretable logic
-- Ideal for quant research, portfolio monitoring, or market crash detection
-- No black-box ML — model behavior is fully explainable and parameterized
+- Built for **practical risk assessment** using **realistic**, **interpretable logic**
+- Ideal for **quant research**, **portfolio monitoring**, or **market crash detection**
+- No black-box ML — model behavior is **fully explainable and parameterized**
 
 ## 📜 License
 
