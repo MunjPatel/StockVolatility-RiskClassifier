@@ -1,5 +1,4 @@
-# 📉 Stock Volatility Risk Classifier
-
+# 📉 Drawdown Risk Simulator
 A lightweight, explainable financial risk assessment tool that:
 
 - Simulates future stock price paths using **Monte Carlo methods**
