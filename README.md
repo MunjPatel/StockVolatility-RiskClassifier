@@ -9,7 +9,7 @@ Built with **real-world market data** from **Yahoo Finance** and visualized in a
 
 ---
 
-![App Preview](drawdown_risk_classifier.gif)
+![App Preview](drawdown_risk_simulator.gif)
 
 ---
 
