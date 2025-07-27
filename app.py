@@ -22,7 +22,7 @@ st.sidebar.header("⚙️ Parameters")
 selected_company = st.sidebar.selectbox("Select Company", options=list(tickers.keys()))
 ticker = tickers[selected_company]
 start_date = st.sidebar.date_input("Start Date", datetime(2020, 1, 1))
-end_date = st.sidebar.date_input("End Date", datetime.today())
+end_date = st.sidebar.date_input("End Date", datetime.today(), max_value=datetime.today())
 forecast_days = st.sidebar.slider("Forecast Horizon (days)", 30, 365, 90)
 num_simulations = st.sidebar.slider("Number of Simulations", 1000, 50000, 10000, step=1000)
 drawdown_threshold = st.sidebar.slider("Drawdown Threshold (%)", 5, 50, 15) / 100
