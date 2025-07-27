@@ -15,7 +15,7 @@ warnings.filterwarnings("ignore")
 
 # Streamlit UI
 st.set_page_config(layout="wide", page_title="Stock Risk Analyzer")
-st.title("📊 Monte-Carlo Drawdown Analyzer")
+st.markdown("<h1 style='text-align: center;'>📊 Monte-Carlo Drawdown Analyzer</h1>", unsafe_allow_html=True)
 
 # Sidebar controls
 st.sidebar.header("⚙️ Parameters")
